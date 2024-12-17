@@ -3,11 +3,11 @@ const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const port = 3000;
-// const MONGO_URL = process.env.MONGO_URL;
-const MONGO_URL = "mongodb://localhost:27017/zerodha";
+const MONGO_URL = process.env.MONGO_URL;
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const cookieParser = require("cookie-parser");
+
 //holdings
 const {holdingData} = require("./Data/Data.js");
 const holding = require("./Model/HoldingModel.js");
