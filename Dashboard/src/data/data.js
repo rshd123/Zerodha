@@ -169,8 +169,6 @@ export const holdings = [
 },
 ];
 
-
-  
   // positions
 export const positions = [
 {
