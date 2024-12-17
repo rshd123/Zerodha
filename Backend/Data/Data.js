@@ -170,7 +170,6 @@ const holdingData = [
 ];
 
 
-  
   // positions
  const positionData = [
 {
@@ -194,4 +193,5 @@ const holdingData = [
     isLoss: true,
 },
 ];  
+
 module.exports = {holdingData,positionData};

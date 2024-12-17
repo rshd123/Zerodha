@@ -64,8 +64,7 @@ app.post('/newOrder', async (req,res)=>{
         mode: req.body.mode,
     });
 
-    newOrder.save();
-    res.send("order saved");
+    await newOrder.save();
 });
 
 app.get('/allOrders', async (req,res)=>{
